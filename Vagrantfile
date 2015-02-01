@@ -9,6 +9,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.network "private_network", type: "dhcp"
 
+  config.vm.network "forwarded_port", guest: 61613, host: 61613, auto_correct: true
+
   # VirtualBox Provider Config
   config.vm.provider "virtualbox" do |v|
     v.memory = 1024
