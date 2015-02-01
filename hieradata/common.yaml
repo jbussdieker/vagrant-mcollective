@@ -4,6 +4,7 @@ classes:
  - mcollective
 activemq::instances:
   'mcollective': {}
+mcollective::client: true
 mcollective::connector: 'activemq'
 mcollective::connector_user: 'guest'
 mcollective::connector_password: 'guest'

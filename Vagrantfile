@@ -36,7 +36,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     puppet.module_path = "modules"
     puppet.manifest_file  = "site.pp"
     puppet.hiera_config_path = "hiera.yaml"
-    puppet.options = "--show_diff"
+    puppet.options = "--show_diff --graph"
   end
 
   # Individual Node Config

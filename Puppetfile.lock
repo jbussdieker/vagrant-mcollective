@@ -18,7 +18,7 @@ GIT
 GIT
   remote: git://github.com/jbussdieker/puppet-mcollective.git
   ref: master
-  sha: 126988d231383805caf032f13889a81ccd026dd7
+  sha: 93c6719361ba602f3a24ee3cde2419511bb35484
   specs:
     jbussdieker-mcollective (0.0.2)
 

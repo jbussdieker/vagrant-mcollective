@@ -1,5 +1,7 @@
 hiera_include('classes')
 
+Exec['apt_update'] -> Package <||>
+
 apt::source { 'puppetlabs':
   location   => 'http://apt.puppetlabs.com',
   repos      => 'main',
