@@ -1,0 +1,9 @@
+classes:
+ - apt
+ - activemq
+ - mcollective
+activemq::instances:
+  'mcollective': {}
+mcollective::connector: 'activemq'
+mcollective::connector_user: 'guest'
+mcollective::connector_password: 'guest'
