@@ -10,7 +10,7 @@ FORGE
 GIT
   remote: git://github.com/jbussdieker/puppet-activemq.git
   ref: master
-  sha: 0bea464a03790aa76c105e0c00e799000717d02c
+  sha: 6b4bbfead647a6963ebf5b33eba26f0aa9f39bb1
   specs:
     jbussdieker-activemq (0.0.2)
       puppetlabs-java (>= 0)
@@ -18,7 +18,7 @@ GIT
 GIT
   remote: git://github.com/jbussdieker/puppet-mcollective.git
   ref: master
-  sha: 93c6719361ba602f3a24ee3cde2419511bb35484
+  sha: 4ab145ea0d30508a78835f9c27bf1a74fe584f62
   specs:
     jbussdieker-mcollective (0.0.2)
 
